@@ -65,8 +65,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ..
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;Save the file and close it.&lt;/li&gt;
-&lt;li&gt;Make the script executable with &lt;code&gt;chmod +x myscript.sh&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Run the script with &lt;code&gt;./myscript.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Make the script executable with &lt;code&gt;chmod +x script.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Run the script with &lt;code&gt;./script.sh&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
@@ -255,7 +255,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-547691382&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-362874159&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -265,7 +265,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-547691382&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-362874159&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
