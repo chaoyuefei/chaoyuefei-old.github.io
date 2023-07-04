@@ -789,7 +789,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    0 min read
+    1 min read
   </span>
   
 
@@ -821,7 +821,38 @@
   <div class="article-container">
 
     <div class="article-style">
-      
+      <p>Here is the script.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;update&#34;</span>
+</span></span><span class="line"><span class="cl">git push
+</span></span><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Update something&#34;</span>
+</span></span><span class="line"><span class="cl">git push
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span></code></pre></div><p>Detailed steps:</p>
+<ol>
+<li>Go to your website&rsquo;s folder and create a script file <code>script.sh</code></li>
+<li>Add the following code to the file:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;update&#34;</span>
+</span></span><span class="line"><span class="cl">git push
+</span></span><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Update something&#34;</span>
+</span></span><span class="line"><span class="cl">git push
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span></code></pre></div><ol start="3">
+<li>Save the file and close it.</li>
+<li>Make the script executable with <code>chmod +x myscript.sh</code></li>
+<li>Run the script with <code>./myscript.sh</code></li>
+</ol>
+
     </div>
 
     
