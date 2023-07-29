@@ -77,16 +77,10 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Explored the graph properties of connectomes&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Determined how they are affected by certain parameters&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;– Investigated structural-functional connectomes relationship by predicting direct and indirect weights&lt;/p&gt;
-&lt;p&gt;– Authored a scientific report with a comprehensive analysis of the research&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;Explored the graph properties of connectomes&lt;/li&gt;
+&lt;li&gt;Determined how they are affected by certain parameters&lt;/li&gt;
+&lt;li&gt;Investigated structural-functional connectomes relationship by predicting direct and indirect weights&lt;/li&gt;
+&lt;li&gt;Authored a scientific report with a comprehensive analysis of the research&lt;/li&gt;
 &lt;li&gt;Delivered a professional presentation&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -383,7 +377,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-768594132&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-528136497&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -393,7 +387,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-768594132&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-528136497&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
