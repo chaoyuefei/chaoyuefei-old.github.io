@@ -17,11 +17,14 @@
       <link>https://chaoyuefei.github.io/project/0129/</link>
       <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://chaoyuefei.github.io/project/0129/</guid>
-      <description>&lt;h1 id=&#34;object-detection-and-localization-for-pick-and-place&#34;&gt;Object Detection and Localization for Pick and Place&lt;/h1&gt;
+      <description>&lt;!-- # Object Detection and Localization for Pick and Place --&gt;
 &lt;p&gt;I am a member of a three-person team that conducted this project in spring 2023. The objective of this project is to perform pick and place tasks in Gazebo, using MoveIt! to move the robot and PCL to detect object positions and colours.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Created a simulated environment using ROS and Gazebo, integrated MoveIt! to enable precise robot movements for pick and place tasks. Utilized PCL for object detection and localization.&lt;/li&gt;
-&lt;li&gt;Focused specifically on identifying ’nought’ and ’cross’ shapes while excluding black obstacles, implemented object counting functionality, excluding black obstacles.&lt;/li&gt;
+&lt;li&gt;Created a simulated environment using ROS and Gazebo&lt;/li&gt;
+&lt;li&gt;Integrated MoveIt! to enable precise robot movements for pick and place tasks&lt;/li&gt;
+&lt;li&gt;Utilized PCL for object detection and localization&lt;/li&gt;
+&lt;li&gt;Focused specifically on identifying ’nought’ and ’cross’ shapes while excluding black obstacles&lt;/li&gt;
+&lt;li&gt;Implemented object counting functionality, excluding black obstacles&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
