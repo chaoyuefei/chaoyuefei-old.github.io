@@ -13,21 +13,6 @@
     </image>
     
     <item>
-      <title>Autoencoder and Variational Autoencoder Image Reconstruction</title>
-      <link>https://chaoyuefei.github.io/project/0169/</link>
-      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://chaoyuefei.github.io/project/0169/</guid>
-      <description>&lt;!-- # Object Detection and Localization for Pick and Place --&gt;
-&lt;p&gt;A project employed Autoencoder (AE) and Variational Autoencoder (VAE) trained on the CelebA-HQ dataset.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Successfully implemented AE model to reconstruct input images, achieving close resemblance to the original&lt;/li&gt;
-&lt;li&gt;Employed VAE model that learned a probability distribution over the data, enabling a flexible and probabilistic approach to encoding and reconstruction&lt;/li&gt;
-&lt;li&gt;Showcased proficiency in training and utilizing AE and VAE models, gaining practical experience in machine learning and visual computing tasks&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Object Detection and Localization for Pick and Place</title>
       <link>https://chaoyuefei.github.io/project/0129/</link>
       <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
